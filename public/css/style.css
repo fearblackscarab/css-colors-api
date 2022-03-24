@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: red;
+}
+
+.top-nav{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.top-nav-item{
+    color: red;
+}

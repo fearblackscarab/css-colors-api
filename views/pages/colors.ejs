@@ -1,0 +1,15 @@
+<%- include('../partials/header') %>
+
+<main class="main" id="main">
+    <h2 class="colors-title">List of CSS Colors</h2>
+    <section class="colors-section">
+        <% data.forEach(item=>{ %>
+            <div class="color-div">
+                <p class="color-name"><%= item.name %></p>
+                <p class="click-me"><a href="/colors/<%= item.id %>">Click Me</a> for Hex Code</p>
+            </div>
+        <% }) %> 
+    </section>
+</main>
+
+<%- include('../partials/footer') %> 
